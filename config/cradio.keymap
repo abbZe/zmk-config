@@ -16,19 +16,19 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7           &kp NUMBER_8  &kp NUMBER_9  &kp N0
-&kp ESCAPE        &kp TAB           &kp GRAVE     &kp LEFT_PARENTHESIS  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp EQUAL     &kp MINUS     &kp BACKSPACE
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C         &kp V                 &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp SINGLE_QUOTE       &kp COMMA     &kp DOT       &kp SLASH
+&kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4          &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7           &kp NUMBER_8   &kp NUMBER_9      &kp N0
+&kp ESCAPE        &kp GRAVE         &kp COLON     &kp LEFT_PARENTHESIS  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp MINUS         &kp BACKSPACE
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C         &kp V                 &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp SINGLE_QUOTE       &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
                                                   &kp SPACE             &kp LEFT_SHIFT      &trans             &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp N1            &kp N2            &kp N3  &kp N4     &kp N5            &kp N6          &kp N7            &kp N8        &kp N9           &kp N0
-&kp ESCAPE        &kp TAB           &trans  &kp SEMI   &kp COLON         &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSPC
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C   &kp V      &trans            &trans          &kp SINGLE_QUOTE  &kp COMMA     &kp DOT          &kp BACKSLASH
-                                            &kp SPACE  &kp LEFT_SHIFT    &trans          &trans
+&kp N1            &kp N2            &kp N3         &kp N4     &kp N5            &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
+&kp ESCAPE        &kp TAB           &kp SEMICOLON  &trans     &trans            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSPC
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C          &kp V      &trans            &trans          &trans          &trans        &trans           &kp BACKSLASH
+                                                   &kp SPACE  &kp LEFT_SHIFT    &trans          &trans
             >;
         };
     };
