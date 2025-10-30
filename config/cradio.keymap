@@ -7,18 +7,18 @@
 
         layer_0 {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R      &kp T             &kp Y                &kp U        &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F      &kp G             &kp H                &kp J        &kp K      &kp L    &kp BACKSPACE
-&kp Z  &kp X  &kp C  &kp V      &kp B             &kp N                &kp M        &kp COMMA  &kp DOT  &mt LEFT_ALT SLASH
-                     &kp SPACE  &kp LEFT_SHIFT    &lt 2 RIGHT_BRACKET  &lt 1 ENTER
+&kp Q  &kp W  &kp E  &kp R      &kp T             &kp Y         &kp U        &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D  &kp F      &kp G             &kp H         &kp J        &kp K      &kp L    &kp BACKSPACE
+&kp Z  &kp X  &kp C  &kp V      &kp B             &kp N         &kp M        &kp COMMA  &kp DOT  &mt LEFT_ALT SLASH
+                     &kp SPACE  &kp LEFT_SHIFT    &lt 2 ESCAPE  &lt 1 ENTER
             >;
         };
 
         layer_1 {
             bindings = <
-&kp TAB           &trans            &trans  &trans                &trans              &trans             &kp GRAVE              &kp SEMI       &kp EQUAL         &kp SINGLE_QUOTE
-&kp ESCAPE        &trans            &trans  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp PLUS       &kp MINUS         &kp BACKSPACE
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C   &kp V                 &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp QUESTION           &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH
+&trans            &trans            &trans  &trans                &trans              &trans             &kp GRAVE              &kp SEMI       &kp EQUAL         &kp SINGLE_QUOTE
+&kp TAB           &trans            &trans  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp PLUS       &kp MINUS         &kp BACKSPACE
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &trans  &trans                &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp QUESTION           &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH
                                             &kp SPACE             &kp LEFT_SHIFT      &trans             &trans
             >;
         };
@@ -26,8 +26,8 @@
         layer_2 {
             bindings = <
 &kp N1            &kp N2            &kp N3  &kp N4     &kp N5            &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
-&kp ESCAPE        &trans            &trans  &trans     &trans            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSPC
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp C   &kp V      &trans            &trans          &trans          &trans        &trans           &trans
+&kp TAB           &trans            &trans  &trans     &trans            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BSPC
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &trans  &trans     &trans            &trans          &trans          &trans        &trans           &trans
                                             &kp SPACE  &kp LEFT_SHIFT    &trans          &trans
             >;
         };
